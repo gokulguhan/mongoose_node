@@ -1,9 +1,6 @@
 
 var express = require('express');
-
-// module.exports = function (app) {
-
-
+// this express router
 const router = express.Router();
 const {moviesGet, moviesInsert, moviesUpdate, moviesdel} =require('../controllers/movies_controller.js')
 
@@ -16,6 +13,5 @@ const {moviesGet, moviesInsert, moviesUpdate, moviesdel} =require('../controller
     // this delete data 
     router.post('/dm',moviesdel)
     
-// }
 
 module.exports = router;
