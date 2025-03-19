@@ -1,0 +1,20 @@
+{
+  "name": "mongoooshwith_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "gokul": "nodemon script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0"
+  },
+  "dependencies": {
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
