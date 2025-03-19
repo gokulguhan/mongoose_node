@@ -1,0 +1,4 @@
+node_modules
+
+// hide this file data sensitive infomation
+config.json

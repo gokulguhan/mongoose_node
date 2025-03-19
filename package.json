@@ -2,9 +2,9 @@
   "name": "mongoooshwith_node",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "main.js",
   "scripts": {
-    "gokul": "nodemon script.js",
+    "start": "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
     "install": "^0.13.0"
   },
   "dependencies": {
+    "express": "^4.21.2",
     "mongoose": "^8.12.1",
     "nodemon": "^3.1.9"
   }
